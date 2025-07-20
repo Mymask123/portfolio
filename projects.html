@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | James Kim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
+    html, body { height: 100%; }
+  </style>
+</head>
+<body class="bg-white text-black flex flex-col min-h-screen">
+  <!-- Navbar -->
+  <header class="bg-[#1A2B4C] text-white p-4 shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-semibold">James Kim</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="hover:underline">About</a>
+        <a href="projects.html" class="hover:underline font-bold underline">Projects</a>
+        <a href="resume.html" class="hover:underline">Resume</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    <section class="max-w-6xl mx-auto py-20 px-6">
+      <h2 class="text-4xl font-bold text-[#1A2B4C] mb-12 text-center">My Projects</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <!-- Project 1 -->
+        <div class="border rounded-2xl p-4 shadow-md hover:shadow-lg transition">
+          <div class="bg-gray-100 h-48 mb-4 flex items-center justify-center rounded-xl">
+            <span class="text-gray-500">[Project Image Placeholder]</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Fusion 360 Bracket Design</h3>
+          <p class="text-gray-700">A mechanical bracket designed for 3D printing. Created in Fusion 360 to explore structural stability and parametric constraints.</p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="border rounded-2xl p-4 shadow-md hover:shadow-lg transition">
+          <div class="bg-gray-100 h-48 mb-4 flex items-center justify-center rounded-xl">
+            <span class="text-gray-500">[Project Image Placeholder]</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Blender Robotics Render</h3>
+          <p class="text-gray-700">A 3D render of a conceptual robot designed in Blender, focusing on lighting, materials, and camera angles to convey realism.</p>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="border rounded-2xl p-4 shadow-md hover:shadow-lg transition">
+          <div class="bg-gray-100 h-48 mb-4 flex items-center justify-center rounded-xl">
+            <span class="text-gray-500">[Project Image Placeholder]</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Parametric Gear System</h3>
+          <p class="text-gray-700">A gear system modeled in Fusion 360 using parameters to control gear ratios and animation constraints.</p>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="border rounded-2xl p-4 shadow-md hover:shadow-lg transition">
+          <div class="bg-gray-100 h-48 mb-4 flex items-center justify-center rounded-xl">
+            <span class="text-gray-500">[Project Image Placeholder]</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Animation: Drone Assembly</h3>
+          <p class="text-gray-700">An animation showing the assembly of a drone using exploded views and motion paths in Blender.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-4">
+    <p>&copy; 2025 James Kim. All rights reserved.</p>
+  </footer>
+</body>
+</html>
